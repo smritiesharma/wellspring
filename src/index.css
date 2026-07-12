@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-sand-50 text-ink-900 font-body antialiased;
+}
+
+::selection {
+  background: #D4A24C;
+  color: #0A2E2F;
+}
+
+*:focus-visible {
+  outline: 2px solid #D4A24C;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.wave-divider {
+  height: 40px;
+  background-repeat: repeat-x;
+  background-size: 120px 40px;
+}
+
+.eyebrow {
+  @apply font-mono text-xs tracking-[0.2em] uppercase text-gold-600;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 bg-gold-500 text-teal-950 font-body font-semibold px-6 py-3 rounded-full transition-all duration-200 hover:bg-gold-400 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-gold-500/30 active:translate-y-0;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center gap-2 bg-transparent border border-sand-50/40 text-sand-50 font-body font-semibold px-6 py-3 rounded-full transition-all duration-200 hover:bg-sand-50/10 hover:-translate-y-0.5 active:translate-y-0;
+}
+
+.btn-dark {
+  @apply inline-flex items-center justify-center gap-2 bg-teal-900 text-sand-50 font-body font-semibold px-6 py-3 rounded-full transition-all duration-200 hover:bg-teal-800 hover:-translate-y-0.5 active:translate-y-0;
+}
+
+.card {
+  @apply bg-white rounded-2xl border border-sand-200 shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+}
+
+.section-pad {
+  @apply px-6 md:px-10 lg:px-16 py-20 md:py-28;
+}
