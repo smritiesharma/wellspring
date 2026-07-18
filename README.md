@@ -12,7 +12,7 @@ A 5-page prototype website built for pitching web development services to NGOs.
   messages — all in the browser, no server required.
 
 ## Pages
-1. **Home** (`/`) — hero, animated impact counters, core pillars, story previews
+1. **Home** (`/`) — consists of hero, animated impact counters, core pillars, and story previews
 2. **About** (`/about`) — mission/vision split, timeline, team grid, fund transparency bars
 3. **Campaigns** (`/campaigns`) — filterable project grid with a donation modal that
    updates each project's funding progress live
