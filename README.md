@@ -13,17 +13,13 @@ A 5-page prototype website built for pitching web development services to NGOs.
 
 ## Pages
 1. **Home** (`/`) — consists of hero, animated impact counters, core pillars, and story previews
-2. **About** (`/about`) — mission/vision split, timeline, team grid, fund transparency bars
-3. **Campaigns** (`/campaigns`) — filterable project grid with a donation modal that
-   updates each project's funding progress live
-4. **Get Involved** (`/get-involved`) — 3-step validated volunteer form, openings
-   accordion, masonry testimonials
-5. **Contact & Donate** (`/contact`) — validated contact form, coordinates + map
-   placeholder, one-time/monthly donation checkout with a mock confirmation screen
+2. **About** (`/about`) — has mission/vision split, timeline, team grid, and fund transparency bars
+3. **Campaigns** (`/campaigns`) — it is designed as a filterable project grid with a donation modal that updates each project's funding progress live.
+4. **Get Involved** (`/get-involved`) — it is a 3-step validated volunteer form, openings accordion, masonry testimonials, for secure and trusted entries.
+5. **Contact & Donate** (`/contact`) — this page is designed as it validated contact form, coordinates + map placeholder, one-time/monthly donation checkout with a mock confirmation screen.
 
-## Run it locally
-
-```bash
+## Run it locally by running the following commands in the terminal after entering the folder:
+```
 npm install
 npm run dev
 ```
