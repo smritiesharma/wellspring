@@ -24,7 +24,7 @@ export default function Home() {
             Every well we dig gives a village back its mornings.
           </h1>
           <p className="mt-6 text-lg text-sand-100/80 max-w-xl animate-rise [animation-delay:200ms]">
-            Wellspring builds clean water access, schools, and sustainable livelihoods in communities
+            Wellspring builds clean water access, s, and sustainable livelihoods in communities
             that need them most — and shows you exactly where every dollar goes.
           </p>
           <div className="mt-9 flex flex-wrap gap-4 animate-rise [animation-delay:300ms]">
