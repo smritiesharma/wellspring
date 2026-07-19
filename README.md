@@ -152,7 +152,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 📄 License
 
-This project is open source. Consider adding an [MIT License](https://choosealicense.com/licenses/mit/) file if you intend for others to freely use and adapt this template.
+This project is open source.
 
 ---
 
