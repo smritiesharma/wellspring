@@ -19,3 +19,17 @@ A 5-page website template I built to show NGOs what a modern, donor-friendly sit
 5. **Contact & Donate** (`/contact`) — contact form, map placeholder, one-time/monthly donation checkout with a mock confirmation screen
 
 ## Running it locally
+npm install
+npm run dev
+
+Then open the local URL printed in the terminal (usually `http://localhost:5173`).
+
+## Building for production
+npm run build
+npm run preview
+
+## Notes
+
+- Images are sourced from Unsplash (free to use).
+- All "backend" data lives in `localStorage` — clear site data to reset the demo.
+- To re-skin for a client pitch, swap the palette/fonts in `tailwind.config.js` and edit `src/data/mockData.js`.
